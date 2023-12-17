@@ -159,7 +159,7 @@ function App() {
         <p>
           <a
             className="GitHub"
-            href=""
+            href="https://github.com/aare-mikael/whack-a-mole"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -170,7 +170,7 @@ function App() {
         <p>
           <a
             className="LinkedIn"
-            href="linkedin.com/in/mikael-aare"
+            href="https://linkedin.com/in/mikael-aare"
             target="_blank"
             rel="noopener noreferrer"
           >

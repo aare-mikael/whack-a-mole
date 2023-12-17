@@ -37,6 +37,11 @@
   background-color: darkred;
 }
 
+.Footer a {
+  color: white;
+  text-decoration: none;
+}
+
 .Difficulty {
   display: flex;
   flex-direction: row;
