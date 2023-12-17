@@ -2,37 +2,113 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header {
+  height: 10vh;
+  position: sticky;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 1vmin);
+  color: white;
+  background-color: darkred;
+}
+
+.Body {
+  background-color: #1f1f1f;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1.5vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Footer {
+  height: 10vh;
+  position: sticky;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
+  background-color: darkred;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Difficulty {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 772px;
+  height: 50px;
 }
+
+.Difficulty button {
+  width: 120px;
+  height: 50px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: darkred;
+  color: white;
+  font-size: 20px;
+}
+
+.Difficulty button:hover {
+  transition: ease 0.2s;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.Difficulty button:focus {
+  background-color: rgb(0, 140, 255);
+}
+
+.Game-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 0 auto;
+  width: 500px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+.Game-buttons button {
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: darkred;
+  color: white;
+  font-size: 20px;
+}
+
+.Game-buttons button:hover {
+  transition: ease 0.2s;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.Game-box {
+  width: 772px;
+  height: 510px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+}
+
+.Game-box:hover {
+  cursor: pointer;
+}
+
