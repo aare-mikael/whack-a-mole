@@ -170,7 +170,7 @@ function App() {
         <p>
           <a
             className="LinkedIn"
-            href="https://linkedin.com/in/mikael-aare"
+            href="https://www.linkedin.com/in/mikaelaare/"
             target="_blank"
             rel="noopener noreferrer"
           >
